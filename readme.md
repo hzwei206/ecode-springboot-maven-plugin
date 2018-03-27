@@ -2,7 +2,8 @@ spring boot应用maven打包插件，扩展自spring-boot-maven-plugin插件，�
 1.对spring-boot-maven-plugin插件打包生成的可执行jar瘦身：将原可执行jar(fat jar)里的BOOT-INF\lib里的依赖jar分离出来，放到同目录lib路径下；  
 2.增加配置参数，指定打包路径；
 
-用法：  将本插件安装到您的maven仓库
+用法：    
+将本插件安装到您的maven仓库，然后修改您的springboot项目的pom.xml，将原spring-boot-maven-plugin插件替换为本插件，然后执行 【mvn clean -Dmaven.test.skip=true package】  
 原spring-boot-maven-plugin插件：  
 ```xml  
         <plugin>
