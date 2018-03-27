@@ -3,7 +3,7 @@ spring boot应用maven打包插件，扩展自spring-boot-maven-plugin插件，�
 2.增加配置参数，指定打包路径；
 
 用法：    
-将本插件安装到您的maven仓库，然后修改您的springboot项目的pom.xml，将原spring-boot-maven-plugin插件替换为本插件，然后执行 【mvn clean -Dmaven.test.skip=true package】  
+将本插件安装到您的maven仓库(可以直接将ecode-springboot-maven-plugin/dist/下面的内容复制到您的maven仓库)，然后修改您的springboot项目的pom.xml，将原spring-boot-maven-plugin插件替换为本插件，然后执行 【mvn clean -Dmaven.test.skip=true package】  
 原spring-boot-maven-plugin插件：  
 ```xml  
         <plugin>
