@@ -4,7 +4,7 @@ spring boot应用maven打包插件，扩展自spring-boot-maven-plugin插件，�
 
 用法：  将本插件安装到您的maven仓库
 原spring-boot-maven-plugin插件：  
-<pre>  
+```xml  
         <plugin>
            <groupId>org.springframework.boot</groupId>
            <artifactId>spring-boot-maven-plugin</artifactId>
@@ -20,10 +20,10 @@ spring boot应用maven打包插件，扩展自spring-boot-maven-plugin插件，�
                 </execution>
             </executions>
         </plugin> 
-</pre>
+```
 
 本插件：
-<pre>  
+```xml  
         <plugin>
            <groupId>com.jsecode.springboot</groupId>
            <artifactId>ecode-springboot-maven-plugin</artifactId>
@@ -42,7 +42,7 @@ spring boot应用maven打包插件，扩展自spring-boot-maven-plugin插件，�
                 </execution>
             </executions>
         </plugin> 
-</pre>
+```
 
 区别：（1）groupId及artifactId  
 （2）configuration里增加了allInOne及distDir两个参数：  
