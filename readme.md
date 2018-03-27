@@ -30,8 +30,8 @@ spring boot应用maven打包插件，扩展自spring-boot-maven-plugin插件，�
            <artifactId>ecode-springboot-maven-plugin</artifactId>
            <version>1.0</version>
            <configuration>
-              <executable>false</executable> 
-              <allInOne>true</allInOne>
+              <executable>true</executable> 
+              <allInOne>false</allInOne>
               <mainClass>${project.mainClass}</mainClass> 
               <distDir>${project.distDir}</distDir>
            </configuration>
